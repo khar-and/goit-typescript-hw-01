@@ -38,19 +38,19 @@ user.age = "sjadfjkv";
 
 type size = "small" | "medium" | "large";
 
-enum Sizes  {
-  small = 'small'
-  medium = 'medium'
-  large = 'large'
+enum Sizes {
+  small = "small",
+  medium = "medium",
+  large = "large",
 }
- 
-const button1: Sizes = Sizes.small
+
+const button1: Sizes = Sizes.small;
 // ============================================================================================
 
 // function add(num1: number, num2: number): string{
 //   return `${num1} + ${num2}`
 // }
 
-function add(num1: number, num2: number):void{
-  console.log(num1 + num2)
+function add(num1: number, num2: number): void {
+  console.log(num1 + num2);
 }
