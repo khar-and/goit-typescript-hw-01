@@ -36,8 +36,6 @@ const user: User = {
 user.age = "sjadfjkv";
 // ==========================================================================================
 
-type size = "small" | "medium" | "large";
-
 enum Sizes {
   small = "small",
   medium = "medium",
@@ -54,3 +52,4 @@ const button1: Sizes = Sizes.small;
 function add(num1: number, num2: number): void {
   console.log(num1 + num2);
 }
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
